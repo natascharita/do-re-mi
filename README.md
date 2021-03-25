@@ -6,7 +6,7 @@ Submitted by: Natascha
 
 Time spent: 8 hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://talented-malleable-neighborhood.glitch.me/
 
 ## Required Functionality
 
@@ -34,7 +34,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [X] The buttons are matched to a musical scale
+- [X] Clicking on the buttons to create sound is now touchscreen friendly
+- [X] Created an array of musical patterns
 
 
 ## Video Walkthrough
@@ -55,12 +57,15 @@ https://www.w3schools.com/jsref/jsref_push.asp
 My friends beta tested and provided moral support.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
 The biggest challenge I ran into was trying to figure out how to change the pattern to one of the patterns I had stored in a nested array. I had created a function that included trying to directly reassign the array variable to a new variable. When it didn't work, I separated the assignment from the rest of the code to test it, and discovered that it wasn't a viable solution. I did some google searched to learn a little more about how to change the value of the array and also how to use nested arrays. I eventually settled on clearing the last pattern, and using .push to add the new pattern.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
 I would like to learn more about using multiple files to organize more complex projects, because it definitely started to feel a bit crowded as I added more features. I also imagine that it would improve the reusability of code, if I wanted to make a variety of games with similar mechanics! I'm also just generally curious about what kind of stuff is achievable in various technologies.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+
 Midway through the project I had the idea to make this into a musical learning game to teach simple melodies. If I had a few more hours to work on this project I would add in variable note timing (quarter, half, whole), more notes. Another feature I would want to add would be the option to repeat the last section, or move onto the next. I would also want to play the complete melody at the end, so that players could test their memory of the complete melody. 
 
 
