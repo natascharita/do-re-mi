@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>DO RE MI</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>DO RE MI</h1>
+    <h3>
+      How to play the game: Try to remember which buttons light up. If you click all of them in the right order, you'll win the game!
+    </h3>
+    <button id="startBtn" onclick="startGame()">
+      <h3>Start</h3>
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      <h3>Stop</h3>
+    </button>
+    <div><h3> </h3></div>
+    <div class="flex-container" id ="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone(1)" 
+              ontouchstart="startTone(1)" ontouchend="stopTone(1)"><h2>DO</h2></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone(2)" 
+              ontouchstart="startTone(2)" ontouchend="stopTone(2)"><h2>RE</h2></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone(3)" 
+              ontouchstart="startTone(3)" ontouchend="stopTone(3)"><h2>MI</h2></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone(4)" 
+              ontouchstart="startTone(4)" ontouchend="stopTone(4)"><h2>FA</h2></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone(5)" 
+              ontouchstart="startTone(5)" ontouchend="stopTone(5)"><h2>SO</h2></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone(6)" 
+              ontouchstart="startTone(6)" ontouchend="stopTone(6)"><h2>LA</h2></button>
+      <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone(7)" 
+              ontouchstart="startTone(7)" ontouchend="stopTone(7)"><h2>TI</h2></button>
+      <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone(8)" 
+              ontouchstart="startTone(8)" ontouchend="stopTone(8)"><h2>DO</h2></button>
+    </div>
+  </body>
+</html>
