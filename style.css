@@ -1,0 +1,131 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: moccasin;
+  color: lightcoral;
+}
+
+h1 {
+  font-style: bold;
+  color: indianred;
+  font-family: verdana, arial, sans-serif;
+}
+
+h2 {
+  font-style: bold;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 30;
+  border-style: outset;
+  border-width: 5px;
+}
+
+#gameButtonArea > button {
+  width: 70px;
+  height: 100px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#startBtn {
+  color: white;
+  background: #479434;
+  border-color: white;
+  width: 150px;
+}
+
+#stopBtn {
+  color: white;
+  background: #943447;
+  border-color: white;
+  width: 150px;
+}
+
+#button1 {
+  background: crimson;
+  border-color: darkred;
+}
+
+#button1:active,
+#button1.lit {
+  background: tomato;
+}
+
+#button2 {
+  background: darkorange;
+  border-color: orangered;
+}
+
+#button2:active,
+#button2.lit {
+  background: orange;
+}
+
+#button3 {
+  background: gold;
+  border-color: orange;
+}
+
+#button3:active,
+#button3.lit {
+  background: khaki;
+}
+
+#button4 {
+  background: forestgreen;
+  border-color: darkgreen;
+}
+
+#button4:active,
+#button4.lit {
+  background: limegreen;
+}
+
+#button5 {
+  background: mediumblue;
+  border-color: darkblue;
+}
+
+#button5:active,
+#button5.lit {
+  background: royalblue;
+}
+
+#button6 {
+  background: purple;
+  border-color: indigo;
+}
+
+#button6:active,
+#button6.lit {
+  background: mediumpurple;
+}
+
+#button7 {
+  background: magenta;
+  border-color: darkmagenta;
+}
+
+#button7:active,
+#button7.lit {
+  background: violet;
+}
+
+#button8 {
+  background: crimson;
+  border-color: darkred;
+}
+
+#button8:active,
+#button8.lit {
+  background: tomato;
+}
